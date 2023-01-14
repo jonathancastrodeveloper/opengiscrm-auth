@@ -1,8 +1,8 @@
 {
-    "name": "codeigniter4/appstarter",
+    "name": "opengiscrm/auth",
     "type": "project",
-    "description": "CodeIgniter4 starter app",
-    "homepage": "https://codeigniter.com",
+    "description": "Opengiscrm Auth",
+    "homepage": "https://opengiscrm.com",
     "license": "MIT",
     "require": {
         "php": "^7.4 || ^8.0",
@@ -24,8 +24,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Tests\\Support\\": "tests/_support",
-             "Opengiscrm\\Auth\\": "vendor/opengiscrm/Authentication/"
+            "Tests\\Support\\": "tests/_support"             
         }
     },
     "scripts": {
