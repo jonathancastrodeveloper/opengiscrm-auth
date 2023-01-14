@@ -30,7 +30,7 @@ The following steps are meant to be used on a development server.
 - Clone Project
 
 ```bash
-$ git clone https://github.com/jonathanc/opengiscrm-codeigniter4.git
+$ composer create-project opengiscrm/auth
 ``` 
 - Setup vendor libraries 
 

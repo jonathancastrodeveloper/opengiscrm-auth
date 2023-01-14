@@ -1,6 +1,6 @@
 {
     "name": "opengiscrm/auth",
-    "type": "project",
+    "type": "library",
     "description": "Opengiscrm Auth",
     "homepage": "https://opengiscrm.com",
     "license": "MIT",
@@ -18,9 +18,16 @@
         "ext-fileinfo": "Improves mime type detection for files"
     },
     "autoload": {
+         "psr-4": {
+            "Opengiscrm\\Auth\\": "src"
+        },
         "exclude-from-classmap": [
             "**/Database/Migrations/**"
-        ]
+        ],
+        "files": [
+            "src/Helpers/auth_helper.php",
+            "src/Helpers/email_helper.php"
+        ]      
     },
     "autoload-dev": {
         "psr-4": {
